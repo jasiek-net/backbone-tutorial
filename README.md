@@ -1,9 +1,8 @@
 # backbone-tutorial
 
-# I found simple backbone tutorial at yt (https://youtu.be/FZSjvWtUxYk) but without backend,
-# so I wrote simple crud backend in Django (but without any backbone-django framework, so it's
-# not safe - switch off csrf, switch on cors).
+I found simple backbone tutorial at yt (https://youtu.be/FZSjvWtUxYk) but without backend, so I wrote simple crud backend in Django (but without any backbone-django framework, so it's not safe - switch off csrf, switch on cors).
 
+```bash
 # Configuration
 cd backend/userManager
 virtualenv venv
@@ -14,5 +13,6 @@ pip install django-cors-headers
 ./manage.py migrate
 ./manage.py runserver
 
-# in your browser go to:
+# in browser go to:
 /path/to/file/index.html
+```
