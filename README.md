@@ -1,6 +1,6 @@
 # backbone-tutorial
 
-I found simple backbone tutorial at yt (https://youtu.be/FZSjvWtUxYk) but without backend, so I wrote simple crud backend in Django (but without any backbone-django framework, so it's not safe - switch off csrf, switch on cors).
+I found simple BackboneJS tutorial at yt (https://youtu.be/FZSjvWtUxYk) but without backend, so I wrote simple API in Django, independent from client-side (with CORS - Cross-Origin Resource Sharing, it's just a practies, not safe).
 
 ```
 # Backend configuration
